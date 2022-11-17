@@ -12,10 +12,8 @@ def test_setup():
     # Declaring Global Variables
     global driver, username, wrong_password, correct_password, url
     # Setting Global Variable Values
-    username = "testpatientaccount"
-    wrong_password = "nicetrymrtong"
-    correct_password = "TestPatientAccount123$"
-    url = "https://monkeyhealth.mattodology.com/login?next=%2F"
+    comment = "testpatientaccount"
+    url = "http://localhost:5000"
     # Initializing ChromeDriver
     option = webdriver.ChromeOptions()
     option.add_argument('--headless')
